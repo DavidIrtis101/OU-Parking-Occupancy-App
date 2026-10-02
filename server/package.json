@@ -1,0 +1,16 @@
+{
+  "name": "ou-parking-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "OU parking occupancy prototype - backend API (simulated data)",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch-path=src src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
